@@ -19,7 +19,7 @@ class TransactionsRepository extends Repository<Transaction> {
             acc.income += transaction.value;
             break;
           case 'outcome':
-            acc.income += transaction.value;
+            acc.outcome += transaction.value;
             break;
 
           default:
